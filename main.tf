@@ -50,7 +50,7 @@ resource "artifactory_group" "dev-group" {
 
 resource "artifactory_group" "infra-group" {
   name             = "Infrastructure"
-  description      = "Infrs group"
+  description      = "Infra group"
   admin_privileges = false
 }
 
